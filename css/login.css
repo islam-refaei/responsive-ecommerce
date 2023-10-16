@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: linear-gradient(
+    to left,
+    rgb(152, 189, 174, 40%),
+    #e4e4e4,
+    #e4e4e4,
+    rgb(152, 189, 174, 40%)
+  ); */
+  /* background-color: #e4e4e4; */
+  height: 100dvh;
+  /* height: 5000px; */
+  background-image: url(../images/Screenshot_2023-09-28_181304-transformed.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/*            header in login & register               */
+
+.nav-item .nav-link {
+  color: #252525;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0px;
+}
+.nav-item .active,
+.register,
+.login {
+  /* border-bottom: 2px solid palevioletred; */
+  color: #d87093;
+}
+
+.content {
+  height: 100dvh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.content form {
+  width: 70%;
+  align-items: center;
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+
+  box-shadow: 0px 0px 20px #000000a8;
+  background-image: url(../images/Screenshot_2023-09-28_181304-transformed.png);
+  background-position: center;
+  background-size: cover;
+}
+.form-control,
+.form-control:focus {
+  background-color: #960c0c00;
+  box-shadow: none;
+  color: #d87093;
+  font-size: 18px;
+}
+.form-control:focus {
+  border-color: #252525af;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #d87093;
+  border-color: #252525;
+}
+
+.btn,
+.btn:focus {
+  color: aliceblue;
+  background-color: #d87093;
+  box-shadow: none;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital,wght@1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Victor+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-sm bg-body-tertiary p-3 fixed-top header"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="images/download.png"
+              style="width: 135px"
+              alt="logo brand"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><img src="images/menu-burger.png" /></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div id="links" class="ms-auto">
+              <ul class="loginForm navbar-nav" id="links">
+                <li class="nav-item">
+                  <a class="nav-link me-2" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">Register</a>
+                </li>
+              </ul>
+            </div>
+            <div id="userInfo" class="userInnfo ms-auto">
+              <ul class="cartShopping navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link userName" href="#" id="userData"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-1" id="cart-icon" href="#"
+                    ><i class="fa-solid fa-cart-shopping"
+                      ><span
+                        class="Quanter d-flex align-items-center justify-content-center"
+                      ></span
+                    ></i>
+                  </a>
+                </li>
+                <div class="cart">
+                  <div></div>
+                  <h2 class="cart-title text-center pt-3">Your Product</h2>
+                  <!-- content -->
+                  <div class="cart-content">
+                    <!-- <div class="cart-box">
+                      <img
+                        src="images/products/3274872317253-removebg-preview.png"
+                        alt=""
+                        class="cart-img"
+                      />
+                      <div class="detail-box">
+                        <div class="cart-product-title">DIOR</div>
+                        <div class="cart-price">250.50 EGP</div>
+                        <input type="number" value="1" min="1" max="5" class="cart-quantity" />
+                      </div>
+                      <i
+                        class="fa-solid fa-trash-can cart-remove"
+                        style="color: #fd0d0d"
+                      ></i>
+                    </div> -->
+                  </div>
+                  <!-- total price -->
+                  <div class="total">
+                    <div class="total-title">total</div>
+                    <div class="total-price">0 EGp</div>
+                  </div>
+                  <!-- buy btn -->
+                  <button type="button" class="btn-buy">Buy Now</button>
+                  <!-- cart close -->
+                  <li class="nav-item">
+                    <a class="nav-link" id="close-cart" href="#"
+                      ><i class="fa-solid fa-xmark"></i
+                    ></a>
+                  </li>
+                </div>
+                <li class="nav-item">
+                  <a class="nav-link logoutBtn" href="#">logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section
+      class="mainsection d-flex justify-content-center align-items-center"
+    >
+      <div class="containerMainSection">
+        <div
+          class="titlrMainSection d-flex flex-column align-items-center mt-3"
+        >
+          <img
+            class="logoInMainSection"
+            src="images/bs-low-resolution-logo-color-on-transparent-background.png"
+            alt=""
+            width="95"
+            style="display: block"
+          />
+          <h2 class="">Beauty and Strong</h2>
+          <button class="btnInMainSection mt-3">
+            SHOP NOW<i
+              class="fa-solid fa-arrow-right ms-2"
+              style="color: #d87070"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div
+        class="productContainer row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-center px-3"
+      >
+        <!-- <div class="card col" style="width: 18rem">
+          <div class="bgImgProduct">
+            <div class="bgImgProduct1 border"></div>
+            <img
+              src="images/products/3274872288997-removebg-preview.png"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <div class="text-center">
+              <h6 class="card-title mb-0">GIVENCHY</h6>
+              <p class="card-text mb-1">Teint Cout Balm</p>
+              <p class="card-text mb-1">
+                <small class="text-mutedd">Foundation</small>
+              </p>
+              <h5>920 EGP</h5>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <button class="AddCartBtn">Add Cart</button>
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- <script src="js/all.min.js"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
